@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>.:Bootcamp:.</title>
+        <title>.:Noticias COVID-19:.</title>
         <link rel="stylesheet" a href="estilo.css">
     </head>
 
@@ -17,24 +17,23 @@
             </div>
             <div id="navbar">
                 <div><a href="index.html">Home</a> </div>
-                <div><a href="bootcamp.html">Bootcamp</a> </div>
-                <div><a href="#sobremim">Sobre mim</a> </div>
+                <div><a href="sobremim.html">Sobre</a> </div>
                 <div><a href="https://forms.gle/wCagCPUpqGJRLvS86" target="_blank">Contato</a> </div>
-                <div><a href="#email">Fique por dentro</a> </div>
+                <div><a href="referencias.html">Saiba mais</a> </div>
             </div>
 
             <div id="imagemFixa">
                 <img src="bigcorona.jpg" id="pngfixa">
             </div>
-            <div id="casos">
-                <h3 style="color: red ;">Casos de COVID-19 ao redor do mundo: <br> <a
-                        href="https://www.google.com/search?q=casos+de+coronavirus+no+mundo&oq=casos+de+coronavirus+no+mundo&aqs=chrome.0.0l5.7754j0j4&sourceid=chrome&ie=UTF-8" target="_blank"><br>FIQUE
+            <div class="casos">
+                <h3 class="casos">Casos de COVID-19 ao redor do mundo: <br> <a
+                        href="https://www.google.com/search?q=casos+de+coronavirus+no+mundo&oq=casos+de+coronavirus+no+mundo&aqs=chrome.0.0l5.7754j0j4&sourceid=chrome&ie=UTF-8"
+                        target="_blank"><br>FIQUE
                         EM ALERTA!</a></h3>
             </div>
             <div>
                 <div id="arturdev">
-                    <h1 style="text-align: center;"><img src="iconecorona.png">O que é COVID-19?<img
-                            src="iconecorona.png"></h1>
+                    <h1 class="casos"><img src="iconecorona.png">O que é COVID-19?<img src="iconecorona.png"></h1>
 
                     <p>COVID-19 (do inglês Coronavirus Disease 2019) é uma doença infeciosa causada pelo
                         coronavírus da síndrome respiratória aguda grave 2 (SARS-CoV-2).<br>
@@ -96,14 +95,15 @@
                 <div id="cursos">
                     <div class="cursosDestaque">
                         <span>
-                            <h3>POLÍTICA E CORONAVIRUS</h3>
+                            <h3>POLÍTICA E CORONAVIRUS:</h3>
                         </span>
                         <img src="bolsocorona.jpg" class="imgDestaque">
-                        <a
-                            href="https://www.terra.com.br/noticias/coronavirus/coronavirus-no-brasil-bolsonaro-troca-ministro-mas-conducao-da-crise-deve-seguir-com-estados-congresso-e-stf-dizem-analistas,47daa642501178a374178cf92bd3b23b0elfk05q.html" target="_blank">
+                        <a href="https://www.terra.com.br/noticias/coronavirus/coronavirus-no-brasil-bolsonaro-troca-ministro-mas-conducao-da-crise-deve-seguir-com-estados-congresso-e-stf-dizem-analistas,47daa642501178a374178cf92bd3b23b0elfk05q.html"
+                            target="_blank">
 
                             <p>O presidente Jair Bolsonaro fez valer o peso de sua caneta, como havia ameaçado, e
-                                demitiu nesta quinta-feira (16/04/2020) Luiz Henrique Mandetta do cargo de ministro da Saúde,
+                                demitiu nesta quinta-feira (16/04/2020) Luiz Henrique Mandetta do cargo de ministro da
+                                Saúde,
                                 após de um mês de embates sobre a melhor estratégia para o enfrentamento da pandemia de
                                 coronavírus.
                             </p>
@@ -111,9 +111,9 @@
                     </div>
                     <div class="cursosDestaque">
                         <span>
-                            <h3> O ALCANCE MUNDIAL DA DOENÇA </h3>
+                            <h3> O ALCANCE MUNDIAL DA DOENÇA: </h3>
                         </span>
-                        <img src="cursoRUBY.jpg" class="imgDestaque">
+                        <img src="mapa.jpg" class="imgDestaque">
                         <a href="https://www.bbc.com/portuguese/internacional-51718755" target="_blank">
                             <p>Um mapa produzido pela BBC e atualizado automaticamente mostra a expansão do coronavirus
                                 pelo mundo desde que foi identificado na província de Hubei em dezembro de 2019.
@@ -123,11 +123,11 @@
 
                     <div class="cursosDestaque">
                         <span>
-                            <h3>CASOS CONFIRMADOS NO BRASIL</h3>
+                            <h3>CASOS CONFIRMADOS NO BRASIL:</h3>
                         </span>
-                        <img src="cursoJAVASCRIPT.jpg" class="imgDestaque">
-                        <a
-                            href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/04/19/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-19-de-abril.ghtml" target="_blank">
+                        <img src="brasil.jpg" class="imgDestaque">
+                        <a href="https://oglobo.globo.com/sociedade/coronavirus-brasil-tem-38654-casos-confirmados-2462-mortes-1-24382220"
+                            target="_blank">
                             <p>Secretarias estaduais de saúde contabilizam 37.437 infectados e 2.388 mortos em todos os
                                 estados. No ultimo sábado (18/04/2020), foram confirmadas 300 mortes.</p>
                         </a>
@@ -135,85 +135,62 @@
 
                     <div class="cursosDestaque">
                         <span>
-                            <h3>Formação - JAVA <br>R$425,00</h3>
+                            <h3>ESPERANÇA DA HUMANIDADE:</h3>
                         </span>
-                        <img src="cursoJAVA.jpg" class="imgDestaque">
-                        <a href="https://www.alura.com.br/cursos-online-programacao/java" target="_blank">
-                            <p>Os aplicativos de Android, sistema operacional móvel mais utilizado no mundo, são criados
-                                com
-                                base no Java. Além disso, uma pesquisa recente mostrou que 90% das 500 maiores empresas
-                                segundo
-                                a Fortune utilizam a implementação dessa linguagem de programação em seus sistemas.
-                                Diante
-                                disso, é difícil negar que aprender Java em 2019 é um bom negócio.</p>
+                        <img src="esperanca.jpg" class="imgDestaque">
+                        <a href="https://www.correiobraziliense.com.br/app/noticia/ciencia-e-saude/2020/04/19/interna_ciencia_saude,846060/ciencia-avanca-na-busca-da-cura-para-o-coronavirus.shtml"
+                            target="_blank">
+                            <p>Pesquisadores dão passos promissores para combater a Covid-19. Estudos envolvem desde
+                                investigações sobre como o patógeno infecta as células à criação de terapias para casos
+                                mais graves</p>
                         </a>
 
                     </div>
                     <div class="cursosDestaque">
                         <span>
-                            <h3> Formação - PYTHON <br> R$400,00</h3>
+                            <h3> PREVENÇÃO</h3>
                         </span>
-                        <img src="cursoPYTHON.jpg" class="imgDestaque">
-                        <a href="https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/">
-                            <p>Python é outra linguagem bastante querida entre os desenvolvedores – talvez atrás apenas
-                                do
-                                JavaScript. Isso porque essa é notoriamente uma linguagem de programação relativamente
-                                fácil de
-                                aprender e ver seus resultados na prática. Por conta de fatores como esse, muitos
-                                encaram Python
-                                como uma tendência forte da área de programação.
-                                Uma prova disso é o fato de muitas instituições de ensino terem começado a adotar o
-                                Python como
-                                linguagem base para o ensino de lógica, estrutura de dados e muitos outros tópicos.</p>
+                        <img src="prevencao.jpg" class="imgDestaque">
+                        <a
+                            href="https://www.saopaulo.sp.gov.br/spnoticias/saiba-como-lavar-as-maos-para-se-prevenir-contra-a-covid-19/">
+                            <p>Veja um passo a passo com as etapas necessárias para uma higienização eficaz; prática é
+                                essencial para prevenção ao novo coronavírus</p>
                         </a>
                     </div>
                     <div class="cursosDestaque">
                         <span>
-                            <h3> Formação C# <br> R$300,00</h3>
+                            <h3> ECONOMIA</h3>
                         </span>
-                        <img src="cursoC.jpg" class="imgDestaque">
-                        <a href="https://www.treinaweb.com.br/curso/csharp-avancado">
-                            <p>O C# é a linguagem de programação proprietária e desenvolvida pela Microsoft. Ela faz
-                                parte da
-                                plataforma .NET e tem sua sintaxe orientada a objetos baseada no C++. Porém, sua
-                                estrutura,
-                                funções e características também possui influência de muitas outras linguagens de
-                                programação.
+                        <img src="economia.jpg" class="imgDestaque">
+                        <a href="https://veja.abril.com.br/politica/uso-de-verba-eleitoral-de-r-3-bi-para-combater-coronavirus-racha-a-camara/"
+                            target="_blank">
+                            <p>A Câmara dos Deputados votará nesta sexta-feira, 3, a Proposta de Emenda à Constituição
+                                (PEC) do chamado “orçamento de guerra”.
+                                O projeto permite a separação dos gastos realizados para o combate ao novo coronavírus
+                                do Orçamento Geral da União.
+                                Embora haja consenso entre os parlamentares para a aprovação do texto,
+                                o destaque que visa destinar as verbas do Fundo Eleitoral e do Fundo Partidário para a
+                                saúde enfrenta resistência na Casa.
                             </p>
                         </a>
                     </div>
 
                 </div>
 
-            </div> <br><br><br><br>
-
-            <div id="sobremim">
-                <img src="eu.png" class="sobreeu">
-                <div id>
-                    <h3>Quem é Artur Campos?</h3>
-                    <p id="sobremim2">
-                        Nascido em 1999, artur começou sua jornada como programador no ano de 2017 pela Universidade de
-                        Brasilia no curso de Computação - Licenciatura.
-                        Em meados de 2018, a Universidade e começou a carreira em um estágio técnico de suporte TI pela
-                        UnB Campus Ceilândia, no qual
-                        atuou na profissão até o ano de 2019. Na metade do mesmo ano, foi convidado a participar do time
-                        de Qualidade e Assurance do grupo Stefanini,
-                        no qual atua na gestão de ativos e no monitoramentos de chamados de central de atendimento até o
-                        instante momento.
-                        Apaixonado por programação, voltou a estudar o desenvolvimento web pelo IESB com o objetivo de
-                        no futuro se tornar um professor da área. </p>
-                </div>
             </div>
-            <br><br><br><br>
             <div id="rodape">
+                <h1 id="casos1">Gostou do conteúdo? Entre em contato conosco:</h1>
                 <div id="redessociais">
-                    <h1>CONTATO</h1>
+
                     <div class="rede"><img src="whatsapp_icon.png" />+55 61 98135-9918</div>
                     <div class="rede"><img src="instagram_icon.png" /> @ArturDev</div>
-                    <div class="rede"><img src="github_icon.png" /> <a href="github.com/TheSpools" target="_blank"> github.com/TheSpools</a></div>
-                    <div class="rede"><img src="linkedin_icon.png" /><a href="https://www.linkedin.com/in/artur-campos-4617a818a/" target="_blank"> linkedin.com/in/artur-campos-4617a818a</a> </div>
+                    <div class="rede"><img src="github_icon.png" /> <a href="github.com/TheSpools" target="_blank">
+                            github.com/TheSpools</a></div>
+                    <div class="rede"><img src="linkedin_icon.png" /><a
+                            href="https://www.linkedin.com/in/artur-campos-4617a818a/" target="_blank">
+                            linkedin.com/in/artur-campos-4617a818a</a> </div>
                 </div>
-             
+
             </div>
     </body>
     <br>

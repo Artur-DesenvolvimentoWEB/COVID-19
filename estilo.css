@@ -82,8 +82,6 @@ width: 90%;
     background-color: darkorchid;
     margin-top: 30px;
     padding-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
     border: 1px solid black;
 }
 
@@ -152,6 +150,13 @@ font-family: 'Courier New', Courier, monospace;
 
     }
 
+.casos{
+    color: red;
+    text-align: center;
+}
+#casos1{
+    text-align: center;
+}
 .sobreeu{
 border-style: groove;
 border-color: gold;
@@ -159,6 +164,13 @@ border-width: 5px;
 width: auto;
 
 }
+
+#referencias{
+    border: red solid 2px;
+    background-color: rosybrown;
+    text-align: justify;
+}
+
 
 
 #bootcamp{
@@ -258,30 +270,3 @@ span{
     border-radius: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#metodologias{
-
-font-display: block;
- display: flex;
-    color: darkgreen;
-    text-shadow: mediumaquamarine 1px 0px 1px;
-    padding: 4%;
-    text-align: left;
-    border: midnightblue 2px solid;
-    border-radius: 50px;
-    background-color: silver;
-    margin-bottom: 100px;
-}
-#METODOLOGIA{
-    margin-left: 30%;
-    margin-bottom: 2%;
-    justify-content: center;
-    text-align: center;
-color: chocolate;
-text-shadow: black 1px 1px 1px;
-border: orangered 2PX SOLID;
-border-radius: 60PX;
-width: 40%;
-background-color: white;
-}
-
-
