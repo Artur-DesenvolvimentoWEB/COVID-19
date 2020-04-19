@@ -1,0 +1,287 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+}
+@keyframes example {
+    10%   {background-color: rebeccapurple;}
+    25%  {background-color: violet;}
+    50%  {background-color: pink;}
+    75%{background-color: plum;}
+    100% {background-color: rebeccapurple}
+    from {background-color: purple;}
+    to {background-color: purple;}
+   
+}
+#cabecalho{
+
+    background-color: white;
+    border: black 3px solid;
+    border-radius: 15px;
+    padding-right: 30px;
+    justify-content: space-around;
+    display: flex;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+
+    
+#conteudo {
+    background-color: silver;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+#imagemFixa{
+
+margin: 40px 55px 40px 55px;
+border-style: groove;
+border-color: blue;
+border-radius: 6px;
+border-width: thick;
+width: 90%;
+    
+}
+
+#casos{
+    padding-bottom: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#pngfixa{
+    width: 100%;
+   
+}
+
+#Destaque{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   padding: 2%;
+    justify-content: center;
+    color: red;
+    text-shadow: black 1px 1px 1px ;
+}
+#rodape{
+    background-color: darkorchid;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#redessociais{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color:bisque;
+    display: block;
+
+}
+
+#cursos{
+display: flex;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+flex-wrap: wrap;
+text-shadow: black 0px 0px 1px;
+justify-content: space-between;
+
+}
+
+#centro{
+    text-align: center;
+}
+
+#email{
+    padding-top: 40px;
+    margin-right: 50px;
+
+}
+
+#receba {
+    color: gainsboro;
+    
+}
+#checkbox{
+    padding-top: 50px;
+   float: left ;
+    padding-right: 0px;
+    height: 15px;
+    width: 10%;
+    
+}
+
+#sobremim{
+margin: 1%;
+width: 96%;
+padding: 25px;
+background-color: lemonchiffon;
+border: firebrick 1px solid;
+border-radius: 15px;
+display: flex;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+#sobremim2{
+    margin: 0px 0px 5px;
+    width: 80%;
+    margin-left: 70px;
+    padding: 5px 10px 10px 10px;
+    background-color: lemonchiffon;
+    border: firebrick 1px solid;
+    border-radius: 15px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+.sobreeu{
+border-style: groove;
+border-color: gold;
+border-width: 5px;
+width: auto;
+
+}
+
+
+#bootcamp{
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-bottom: 50px;
+}
+
+#quemsomos{
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    border: goldenrod;
+    border-radius: 80px;
+    font-family: comic;
+
+}
+
+.cursosDestaque{
+    text-align: justify;
+    justify-content: space-between;
+    margin left: 10px;
+    margin right: 10px;    
+    width:30%;
+    box-shadow: purple 2px 2px 3px;
+    padding: 10px 10px 5px;
+
+}
+.imgDestaque{
+    width: 50%;
+    margin-left: 0%;
+    margin-bottom: 10px;
+    padding-left: 25%;
+}
+
+.rede{
+    margin-top: 20px;
+    display:flex;
+    text-align: bottom;
+    margin-bottom: 5px;
+}
+
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gold;
+    text-decoration: unset;
+
+}
+a:link{color: gold; text-shadow: black 1px 1px 2px;}
+a:hover{color: purple;background:grey;}
+a:active{color: gold; background-color: #666666;}
+
+input{
+   
+ width: 100%;
+ height: 30px;
+margin-right: 5px;
+}
+
+button{
+    
+    background-color: rgb(80,80,250);
+    width: 60px;
+    height: 40px;
+    color: papayawhip;
+    border: blue 1px solid;
+    font-size: 15px;
+    
+}
+span{
+    text-align: center;
+}
+
+#h2{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    padding: 7%;
+}
+
+#destaque2{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: chocolate;
+    text-shadow: black 1px 1px 1px ;
+    text-decoration: underline;
+}
+#arturdev{
+  padding: 0px 25px 25px 20px;
+    justify-content: space-between;  
+    border: teal 2px solid;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#metodologias{
+
+font-display: block;
+ display: flex;
+    color: darkgreen;
+    text-shadow: mediumaquamarine 1px 0px 1px;
+    padding: 4%;
+    text-align: left;
+    border: midnightblue 2px solid;
+    border-radius: 50px;
+    background-color: silver;
+    margin-bottom: 100px;
+}
+#METODOLOGIA{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+color: chocolate;
+text-shadow: black 1px 1px 1px;
+border: orangered 2PX SOLID;
+border-radius: 60PX;
+width: 40%;
+background-color: white;
+}
+
+
