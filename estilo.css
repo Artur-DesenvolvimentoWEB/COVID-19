@@ -161,7 +161,8 @@ font-family: 'Courier New', Courier, monospace;
 border-style: groove;
 border-color: gold;
 border-width: 5px;
-width: 300px;
+width: 300PX;
+margin: 2%;
 
 }
 
